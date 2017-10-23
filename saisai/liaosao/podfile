@@ -1,0 +1,12 @@
+platform :ios, '7.0'
+target 'liaosao' do
+  pod 'MJRefresh', '~> 3.1.12'
+  pod 'YTKNetwork', '~> 2.0.3'
+  pod 'UITableView+FDTemplateLayoutCell', '~> 1.4'
+  pod 'Masonry', '~> 0.6.3’
+  pod 'JSONModel', '~> 1.1.2’
+  pod 'RTRootNavigationController', '~> 0.5.22'  
+  pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'SDCycleScrollView','~> 1.64'
+  pod 'RongCloudIM/IMKit', '~> 2.8.3'  
+end

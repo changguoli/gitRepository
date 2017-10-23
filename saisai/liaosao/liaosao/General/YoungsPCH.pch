@@ -1,0 +1,130 @@
+//
+//  YoungsPCH.pch
+//  Youngs
+//
+//  Created by guoxuyao on 2017/3/6.
+//  Copyright © 2017年 guoxuyao. All rights reserved.
+//
+
+
+
+
+
+#ifndef YoungsPCH_pch
+#define YoungsPCH_pch
+
+
+
+
+// 判断系统版本
+#define IOS7_OR_LATER   ([[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending)
+#define IOS7            ([[[UIDevice currentDevice] systemVersion] integerValue] >= 7)
+#define IOS8            ([[[UIDevice currentDevice] systemVersion] integerValue] >= 8)
+#define IOS9            ([[[UIDevice currentDevice] systemVersion] integerValue] >= 9)
+
+#define KFon(fon) [UIFont systemFontOfSize:fon]
+#define KdefaultFont KFon(15)
+
+
+#import <UIKit/UIKit.h>
+//模块头文件
+#import "Customtabar_Header.h"   //mvvm框架基础
+//第三方头文件
+#import "RTRootNavigationController.h" //导航条
+#import "YTKNetwork.h"
+#import "MBProgressHUD.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+#import "JSONModel.h"
+#import "Masonry.h"                    //布局
+#import "UIImageView+WebCache.h"
+#import "SDCycleScrollView.h"//无限轮播
+#import "MJRefresh.h"  //刷新控件
+#import "CHTCollectionViewWaterfallLayout.h" // 瀑布流
+
+#import "YRSideViewController.h"
+
+#import <RongIMKit/RongIMKit.h>
+
+//其他头文件
+#import "public_ENUM_Header.h" //通用宏头文件
+#import "public_Str_Header.h"  //通用字符串宏头文件
+#import "Header_Mine.h"
+#import "Header_GetJob.h"
+#import "Header_Living.h"
+#import "Header_Business.h"
+#import "LoginHeader.h"
+
+#import "AppMacro.h" //通用类目头文件
+#import "LoginHeader.h"
+
+//类目
+#import "UITextView+YLTextView.h" //输入框
+#import "UITextField+BFShake.h"
+#import "NSString+Extension.h"
+#import "NSDictionary+extension.h"
+#import "NSArray+extension.h"
+
+#import "MBProgressHUD+development.h" //提示框
+
+#import "UIScrollView+EmptyDataSet.h" //空页面
+
+#import "UIColor+BFExtension.h" //颜色
+
+#import "NSString+Common.h"
+
+#import "UILabel+labelCategory.h"
+
+
+//通用定义宏文件
+
+//自定义文件
+#import "private_Obj.h" //封装custom
+
+//tabar模块类
+#import "VC_HomePage.h" //首页
+#import "VC_GetJob.h" //就业
+#import "VC_Living.h" //直播
+#import "VC_Business.h" //创业
+#import "VC_Mine.h"  //我的
+#import "LeftViewController.h"
+
+
+//baseUI
+#import "GBaseViewController.h"
+#import "GBase_Button.h"
+#import "GBase_TableViewCell.h"
+#import "GBaseImageView.h"
+#import "GBaseLabel.h"
+#import "GBaseView.h"
+#import "GBase_Tableview.h"
+#import "GBase_CollectionView.h"
+#import "Base_JSONModel.h"  //model基类
+#import "Base_YTKRequest.h" //YTK基础类
+
+#import "YTK_Network.h"
+#import "YTKNetworkAgent+RTAgent.h"
+#import "AFNetworking.h"
+
+
+
+
+
+#import "publicURL_Header.h"  //url 基类
+
+#import "Logins_Model.h"
+
+#import "UserDefaultsUtils.h"
+
+#import "DataInfo_UserDefaults.h"
+
+
+#ifdef G
+#endif
+
+
+
+
+
+#endif /* YoungsPCH_pch */
+
+
