@@ -23,6 +23,7 @@
     
     //这个是git修改
     //this is second change for git
+    //这是第三次修改
     [self setRightItemWithTitle:@"注册" selector:@selector(tapRegisteraction:)];
     self.loginView = [[LoginViews alloc] initWithFrame:self.view.bounds];
     self.loginView.loginDelegate = self;
