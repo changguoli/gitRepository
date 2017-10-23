@@ -22,6 +22,7 @@
     [self setNavigationItemTitleViewWithTitle:@"登录"];
     
     //这个是git修改
+    //this is second change for git
     [self setRightItemWithTitle:@"注册" selector:@selector(tapRegisteraction:)];
     self.loginView = [[LoginViews alloc] initWithFrame:self.view.bounds];
     self.loginView.loginDelegate = self;
