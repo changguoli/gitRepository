@@ -117,6 +117,7 @@
 
 #import "DataInfo_UserDefaults.h"
 
+#import "GLNetWorkManager.h" //网络请求
 
 #ifdef G
 #endif

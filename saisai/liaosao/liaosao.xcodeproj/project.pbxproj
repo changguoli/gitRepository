@@ -263,6 +263,7 @@
 		36FA6F701EFD5BE200DB9E9A /* DataInfo_UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FA6F6F1EFD5BE200DB9E9A /* DataInfo_UserDefaults.m */; };
 		36FA6F731EFD5EDC00DB9E9A /* UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FA6F721EFD5EDB00DB9E9A /* UserDefaultsUtils.m */; };
 		419B8C618F3B14401E64C761 /* libPods-liaosao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAFD857DEF5FE10DFF053F4 /* libPods-liaosao.a */; };
+		771F011E1F9F1C7200C8FCB3 /* GLNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F011D1F9F1C7200C8FCB3 /* GLNetWorkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -694,6 +695,8 @@
 		36FA6F711EFD5EDB00DB9E9A /* UserDefaultsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsUtils.h; sourceTree = "<group>"; };
 		36FA6F721EFD5EDB00DB9E9A /* UserDefaultsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsUtils.m; sourceTree = "<group>"; };
 		4B173DA7AF347AB0A95F2092 /* Pods-liaosao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liaosao.release.xcconfig"; path = "Pods/Target Support Files/Pods-liaosao/Pods-liaosao.release.xcconfig"; sourceTree = "<group>"; };
+		771F011C1F9F1C7200C8FCB3 /* GLNetWorkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLNetWorkManager.h; sourceTree = "<group>"; };
+		771F011D1F9F1C7200C8FCB3 /* GLNetWorkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNetWorkManager.m; sourceTree = "<group>"; };
 		CEAFD857DEF5FE10DFF053F4 /* libPods-liaosao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-liaosao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BD513FF2840CBA3F6D1C35 /* Pods-liaosao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liaosao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liaosao/Pods-liaosao.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1078,6 +1081,8 @@
 				36FA6F6F1EFD5BE200DB9E9A /* DataInfo_UserDefaults.m */,
 				36FA6F711EFD5EDB00DB9E9A /* UserDefaultsUtils.h */,
 				36FA6F721EFD5EDB00DB9E9A /* UserDefaultsUtils.m */,
+				771F011C1F9F1C7200C8FCB3 /* GLNetWorkManager.h */,
+				771F011D1F9F1C7200C8FCB3 /* GLNetWorkManager.m */,
 			);
 			path = BaseModel;
 			sourceTree = "<group>";
@@ -1854,8 +1859,9 @@
 		36030E3C1E95036E0034452F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GL;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = guoxuyao;
+				ORGANIZATIONNAME = changguoli;
 				TargetAttributes = {
 					36030E431E95036E0034452F = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -2120,6 +2126,7 @@
 				361E40B81E9FFD88003C8C1B /* MineDetail_Cell.m in Sources */,
 				36F7AEDB1E9BD5DD00718126 /* Home_CollectionCell.m in Sources */,
 				36F7AED41E9BD4B400718126 /* MKJParseHelper.m in Sources */,
+				771F011E1F9F1C7200C8FCB3 /* GLNetWorkManager.m in Sources */,
 				36030F821E9536330034452F /* Base_RTRootNavigationController.m in Sources */,
 				36030F501E9536330034452F /* GBase_TableViewCell.m in Sources */,
 				361E40C31EA0CAF3003C8C1B /* Mine_model.m in Sources */,

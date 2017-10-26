@@ -79,8 +79,22 @@
     
     NSDictionary *tempDic= @{@"login":phoneStr,
                              @"password":pswStr};
+//    NSString *url = [NSString stringWithFormat:@"http://vpai.api.ha.cn/api.php?mod=%@&act=%@",phoneStr, pswStr];
+    [GLNetWorkManager requestPostWithURLStr:@"http://vpai.api.ha.cn/api.php?mod=Oauth&act=authorize" parameters:tempDic finish:^(id dataDic) {
+         NSLog(@"data: %@", dataDic);
+        if ([[dataDic objectForKey:@"status"] integerValue] == 1) {
+            //登陆成功
+            Logins_Model *model = [[Logins_Model alloc] initWithDictionary:dataDic error:nil];
+            [DataInfo_UserDefaults setAuthDic:model];
+            [self dismissViewControllerAnimated:YES completion:nil];
+        } else {
+            kShowMessage([dataDic objectForKey:@"msg"]);
+        }
+    } enError:^(NSError *error) {
+        NSLog(@"%@", error);
+    }];
     
-    
+ /* 窑子代码
     Logins_ViewModel *loginmodel = [Logins_ViewModel modelWithViewController:self];
     
     [loginmodel loginin:tempDic success:^(NSDictionary *dic) {
@@ -95,7 +109,7 @@
     } failure:^(NSError *error) {
         NSLog(@"error--:%@", error);
     }];
-    
+ */
     
     
     
