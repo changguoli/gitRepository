@@ -25,6 +25,8 @@
 #define KFon(fon) [UIFont systemFontOfSize:fon]
 #define KdefaultFont KFon(15)
 
+//常用宏定义
+#import "CommonHeader.h"
 
 #import <UIKit/UIKit.h>
 //模块头文件

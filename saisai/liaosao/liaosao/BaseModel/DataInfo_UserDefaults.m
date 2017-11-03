@@ -15,7 +15,7 @@
 +(void)setAuthDic:(Logins_Model*)dic {
     NSData * data = [NSKeyedArchiver archivedDataWithRootObject:dic];
     [UserDefaultsUtils saveValue:data forKey:kuserInfo];
-
+    
     
 }
 

@@ -16,24 +16,27 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
 
 #define kLeftArr @[@"头像",@"昵称",@"简介",@"性别",@"城市",@"绑定手机",@"清除缓存"]
 
-@interface MineDetail_VC ()
-
+@interface MineDetail_VC ()<UINavigationControllerDelegate, UIImagePickerControllerDelegate, UIActionSheetDelegate, UIAlertViewDelegate>
+{
+     MineDetail_model *detail_data;
+     UIImageView      *_picture;//头像
+}
 @end
-
 @implementation MineDetail_VC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
 //    [self setupNa];
 //    [self setupUI];
 //    [self setTableViewFootView];
+    
 }
 
 - (void)setupNa {
    // [self setLeftSild];
     [self setNavigationItemTitleViewWithTitle:@"个人信息"];
-
+    [self showBackWithTitle:@""];
     
 }
 
@@ -110,8 +113,18 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
     cell.detailTextLabel.text = kLeftArr[indexPath.row];
 
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    MineDetail_model *model;
-    [cell setViewModelDataSource:model];
+
+    if (indexPath.row == 0) {
+        _picture = [[UIImageView alloc] initWithFrame:CGRectMake(kScreenWidth - 75, 15, 40, 40)];
+        cell.detailTextLabel.text = @"";
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(changePictureAction:)];
+        [_picture addGestureRecognizer:tap];
+        _picture.userInteractionEnabled = YES;
+        [cell addSubview:_picture];
+        [_picture sd_setImageWithURL:[NSURL URLWithString:@"http://vpai.api.ha.cn/resources/theme/stv1/_static/image/noavatar/big.jpg"] placeholderImage:nil];
+        
+    }
+//    [cell setViewModelDataSource:detail_data];
     return cell;
 }
 
@@ -123,12 +136,147 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
   
+    if (indexPath.row == 1) {//获取邮箱验证码
+        NSDictionary *dataDic = @{@"email":@"416495176@qq.com",
+                                  @"notreg":@"1"};
+        [GLNetWorkManager requestPostWithURLStr:KURL_API(@"getEmailCode") parameters:dataDic finish:^(id dataDic) {
+            
+        } enError:^(NSError *error) {
+            
+        }];
+        
+    } else if (indexPath.row == 2) {//邮箱验证码是否正确
+        NSDictionary *dataDic = @{@"email":@"416495176@qq.com",
+                                  @"code":@"222333"};
+        [GLNetWorkManager requestPostWithURLStr:KURL_API(@"hasCodeByEmail") parameters:dataDic finish:^(id dataDic) {
+            
+        } enError:^(NSError *error) {
+            
+        }];
+    } else if (indexPath.row == 3) {//用邮箱注册
+        NSDictionary *dataDic = @{@"email":@"18937197723@163.com",
+                                  @"username":@"qqq",
+                                  @"password":@"123456",
+                                  @"code":@"223344",
+                                  @"picurl":@"qqq",
+                                  @"picwidth":@"30",
+                                  @"picheight":@"30",
+                                  @"sex":@"2"};
+                                  
+                                  
+        [GLNetWorkManager requestPostWithURLStr:KURL_API(@"signUp2Email") parameters:dataDic finish:^(id dataDic) {
+            
+        } enError:^(NSError *error) {
+            
+        }];
+    } else if (indexPath.row == 4) {//邮箱密码找回
+        NSDictionary *dataDic = @{@"email":@"416495176@qq.com",
+                                  @"password":@"222333",
+                                  @"code":@"222333"};
+                                  
+        [GLNetWorkManager requestPostWithURLStr:KURL_API(@"findPassword2Email") parameters:dataDic finish:^(id dataDic) {
+            
+        } enError:^(NSError *error) {
+            
+        }];
+    } else if (indexPath.row == 5) {//意见反馈
+        NSDictionary *dataDic = @{@"content":@"意见反馈测试",
+                                  @"uid":@"4",};
+        
+        [GLNetWorkManager requestPostWithURLStr:KURL_API_two(@"System", @"sendFeeedback") parameters:dataDic finish:^(id dataDic) {
+            
+        } enError:^(NSError *error) {
+            
+        }];
+    } else {
+        NSDictionary *dataDic = @{@"num":@"",
+                                  @"user_id":@"4",
+                                  @"uname":@"1760219772"};
+        
+        [GLNetWorkManager requestPostWithURLStr:KURL_API_two(@"User", @"show") parameters:dataDic finish:^(id dataDic) {
+            if (([dataDic objectForKey:@"status"] != nil) && ([[dataDic objectForKey:@"status"] integerValue] == 0)) {//请求错误
+                kShowMessage([dataDic objectForKey:@"msg"]);
+            } else {
+                NSLog(@"请求成功");
+                
+                detail_data = [[MineDetail_model alloc] initWithJsonObject:dataDic];
+                NSLog(@"detail_data: %@", detail_data);
+            }
+            NSLog(@"daraDIC %@", dataDic);
+        } enError:^(NSError *error) {
+            NSLog(@"daraDIC %@", dataDic);
+        }];
+    }
     
     
 }
 
+//点击头像切换照片
+- (void)changePictureAction:(UITapGestureRecognizer *)sender {
+    UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:@"提示" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:nil otherButtonTitles:@"相册",@"拍照", nil];
+    [sheet showInView:self.view];
+}
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:
+(NSInteger)buttonIndex {
+    // 相册 0 拍照 1
+    switch (buttonIndex) {
+        case 0:
+            //从相册中读取
+            [self readImageFromAlbum];
+            break;
+        case 1:
+            //拍照
+            [self readImageFromCamera];
+            break;
+        default:
+            break;
+    }
+}
+- (void)readImageFromAlbum {
+    //创建对象
+    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+    //（选择类型）表示仅仅从相册中选取照片
+    imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    //指定代理，因此我们要实现UIImagePickerControllerDelegate,
+    //UINavigationControllerDelegate协议
+    //设置在相册选完照片后，是否跳到编辑模式进行图片剪裁。(允许用户编辑)
+    imagePicker.allowsEditing = YES;
+    imagePicker.delegate = self;
+    //显示相册
+    [self presentViewController:imagePicker animated:YES completion:nil];
+}
+- (void)readImageFromCamera {
+    if ([UIImagePickerController isSourceTypeAvailable:
+         UIImagePickerControllerSourceTypeCamera]) {
+        UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+        imagePicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        imagePicker.allowsEditing = YES; //允许用户编辑
+        imagePicker.delegate = self;
+        [self presentViewController:imagePicker animated:YES completion:nil];
+    } else {
+        //弹出窗口响应点击事件
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"警告"
+                                                        message:@"未检测到摄像头" delegate:nil cancelButtonTitle:nil
+                                              otherButtonTitles:@"确定", nil];
+        [alert show];
+    }
+}
 
 
+//图片完成之后处理
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
+    _picture.image = info[UIImagePickerControllerEditedImage];
+    
+    NSData *data = UIImageJPEGRepresentation(_picture.image, 0.3);
+    [GLNetWorkManager requestPostWithURLStr:KURL_API(@"upload_avatar") parameters:data finish:^(id dataDic) {
+        
+    } enError:^(NSError *error) {
+        
+    }];
+    
+    //结束操作
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

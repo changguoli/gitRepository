@@ -45,6 +45,7 @@
     [manager POST:URLStr parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSDictionary *dataDic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves error:nil];
         finish(dataDic);
+        NSLog(@"url:%@,data: %@", URLStr, dataDic);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         enError(error);
         [self handleFailureMessageWithError:error];
@@ -98,8 +99,11 @@
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/plain",@"application/json",@"text/json",@"text/javascript",@"text/html", @"charset=utf-8", nil];
     [manager POST:URLStr parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSDictionary *dataDic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves error:nil];
-        if ([[dataDic objectForKey:@"errorCode"] isEqualToString:@"0000"]) {
+        if ([[dataDic objectForKey:@"status"] isEqualToString:@"1"]) {
             //请求成功
+            finish(dataDic);
+        } else {
+            //请求失败
             finish(dataDic);
         }
         

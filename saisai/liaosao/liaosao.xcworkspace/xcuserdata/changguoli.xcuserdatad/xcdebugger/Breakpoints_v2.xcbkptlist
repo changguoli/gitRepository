@@ -86,11 +86,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Logins/VC/Register_VC.m"
-            timestampString = "529923482.811405"
+            timestampString = "531217458.160339"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -102,11 +102,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Logins/VC/Register_VC.m"
-            timestampString = "529923482.811491"
+            timestampString = "531217458.16051"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -118,11 +118,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Logins/VC/Register_VC.m"
-            timestampString = "529923482.811553"
+            timestampString = "531217458.160613"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Logins/CustomUI/LoginViews.m"
-            timestampString = "529925371.709109"
+            timestampString = "531217458.160757"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
@@ -154,77 +154,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Logins/VC/Login_VC.m"
-            timestampString = "530682275.293929"
+            timestampString = "531135563.069598"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "-loginRequest"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "liaosao/Class/Logins/VC/Register_VC.m"
-            timestampString = "529923482.812385"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
-            landmarkName = "-registerGetPhoneCode"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "liaosao/Class/Logins/VC/Register_VC.m"
-            timestampString = "529923482.812443"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "-registerGetPhoneCode"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[Register_VC registerGetPhoneCode]"
-                  moduleName = "liaosao"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
-                  timestampString = "530682275.538359"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "109"
-                  endingLineNumber = "109"
-                  offsetFromSymbolStart = "376">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__35-[Register_VC registerGetPhoneCode]_block_invoke"
-                  moduleName = "liaosao"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
-                  timestampString = "530682275.541479"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "110"
-                  endingLineNumber = "110"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -250,7 +186,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/Manager/Logins_ViewModel.m"
-                  timestampString = "530682275.548535"
+                  timestampString = "531389627.644427"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -265,7 +201,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/Manager/Logins_ViewModel.m"
-                  timestampString = "530682275.551305"
+                  timestampString = "531389627.646629"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -282,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/BaseModel/Base_YTKnetwork/YTK_Network.m"
-            timestampString = "529925371.710141"
+            timestampString = "531213971.34006"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -297,56 +233,8 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "liaosao/BaseModel/Base_YTKnetwork/YTK_Network.m"
-            timestampString = "529925371.710218"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "-currtYTKRequest:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[YTK_Network currtYTKRequest:]"
-                  moduleName = "liaosao"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/BaseModel/Base_YTKnetwork/YTK_Network.m"
-                  timestampString = "530682275.560566"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__31-[YTK_Network currtYTKRequest:]_block_invoke"
-                  moduleName = "liaosao"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/BaseModel/Base_YTKnetwork/YTK_Network.m"
-                  timestampString = "530682275.562497"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "64">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Logins/VC/Login_VC.m"
-            timestampString = "530682275.29441"
+            timestampString = "531135563.070633"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
@@ -362,55 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Logins/VC/Login_VC.m"
-            timestampString = "530682320.894036"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "-loginRequest"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__24-[Login_VC loginRequest]_block_invoke"
-                  moduleName = "liaosao"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Login_VC.m"
-                  timestampString = "530682321.122408"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "90"
-                  endingLineNumber = "90"
-                  offsetFromSymbolStart = "328">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__24-[Login_VC loginRequest]_block_invoke"
-                  moduleName = "liaosao"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Login_VC.m"
-                  timestampString = "530682321.125871"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "90"
-                  endingLineNumber = "90"
-                  offsetFromSymbolStart = "340">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "liaosao/Class/Logins/VC/Login_VC.m"
-            timestampString = "530682323.616642"
+            timestampString = "531135563.070928"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "91"
@@ -425,14 +265,462 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "liaosao/Class/Logins/VC/Forget_VC.m"
-            timestampString = "530703662.238519"
+            filePath = "liaosao/BaseModel/GLNetWorkManager.m"
+            timestampString = "531217458.161017"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "+requestPostContainAuthorizationWithURLStr:parameters:token_type:access_token:finish:enError:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/BaseModel/GLNetWorkManager.m"
+            timestampString = "531217458.161115"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "+requestPostContainAuthorizationWithURLStr:parameters:token_type:access_token:finish:enError:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Logins/VC/Register_VC.m"
+            timestampString = "531217458.16119"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-registerPhone"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[Register_VC registerPhone]_block_invoke_3"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
+                  timestampString = "531389627.679954"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[Register_VC registerPhone]_block_invoke_4"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
+                  timestampString = "531389627.68206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Logins/VC/Register_VC.m"
+            timestampString = "531217458.161313"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-registerPhone"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[Register_VC registerPhone]_block_invoke"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
+                  timestampString = "531389627.686728"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__28-[Register_VC registerPhone]_block_invoke_2"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
+                  timestampString = "531389627.688642"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Logins/VC/Register_VC.m"
+            timestampString = "531217458.161443"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "-registerGetPhoneCode"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Logins/VC/Forget_VC.m"
+            timestampString = "531283147.849508"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-sendPhoneCode"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Forget_VC sendPhoneCode]"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Forget_VC.m"
+                  timestampString = "531389627.697163"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__26-[Forget_VC sendPhoneCode]_block_invoke"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Forget_VC.m"
+                  timestampString = "531389627.699055"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Logins/VC/Forget_VC.m"
+            timestampString = "531283147.8502"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-loginActionButton:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Logins/VC/Forget_VC.m"
+            timestampString = "531283147.850523"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-loginActionButton:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Logins/VC/Forget_VC.m"
+            timestampString = "531283147.850813"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-loginActionButton:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Logins/VC/Forget_VC.m"
+            timestampString = "531283147.85108"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-sendPhoneCode"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
+            timestampString = "531389627.314308"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
+            timestampString = "531389627.314856"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MineDetail_VC tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
+                  timestampString = "531389627.715003"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__51-[MineDetail_VC tableView:didSelectRowAtIndexPath:]_block_invoke"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
+                  timestampString = "531389627.716908"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
+            timestampString = "531389627.315197"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MineDetail_VC tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
+                  timestampString = "531386996.905252"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__51-[MineDetail_VC tableView:didSelectRowAtIndexPath:]_block_invoke_3"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
+                  timestampString = "531386996.907566"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
+            timestampString = "531389627.315542"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MineDetail_VC tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
+                  timestampString = "531389627.72152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__51-[MineDetail_VC tableView:didSelectRowAtIndexPath:]_block_invoke_5"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
+                  timestampString = "531389627.724044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
+            timestampString = "531389627.315866"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[MineDetail_VC tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
+                  timestampString = "531389627.729178"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "1704">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__51-[MineDetail_VC tableView:didSelectRowAtIndexPath:]_block_invoke_9"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
+                  timestampString = "531389627.731087"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

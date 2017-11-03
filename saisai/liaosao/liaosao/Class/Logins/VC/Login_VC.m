@@ -89,6 +89,7 @@
             [self dismissViewControllerAnimated:YES completion:nil];
         } else {
             kShowMessage([dataDic objectForKey:@"msg"]);
+            
         }
     } enError:^(NSError *error) {
         NSLog(@"%@", error);

@@ -23,7 +23,7 @@
 - (void)setupNa {
     // [self setLeftSild];
     [self setNavigationItemTitleViewWithTitle:@"我的积分"];
-    
+    [self showBackWithTitle:@""];
     
 }
 

@@ -24,7 +24,7 @@
 - (void)setupNa {
     // [self setLeftSild];
     [self setNavigationItemTitleViewWithTitle:@"签到"];
-    
+    [self showBackWithTitle:@""];
     
     
 }

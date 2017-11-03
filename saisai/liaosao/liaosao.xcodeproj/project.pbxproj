@@ -264,6 +264,8 @@
 		36FA6F731EFD5EDC00DB9E9A /* UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FA6F721EFD5EDB00DB9E9A /* UserDefaultsUtils.m */; };
 		419B8C618F3B14401E64C761 /* libPods-liaosao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAFD857DEF5FE10DFF053F4 /* libPods-liaosao.a */; };
 		771F011E1F9F1C7200C8FCB3 /* GLNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F011D1F9F1C7200C8FCB3 /* GLNetWorkManager.m */; };
+		77769E131FA327E50048FE7F /* GLLogin_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77769E111FA327E50048FE7F /* GLLogin_VC.m */; };
+		77769E141FA327E50048FE7F /* GLLogin_VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77769E121FA327E50048FE7F /* GLLogin_VC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -697,6 +699,10 @@
 		4B173DA7AF347AB0A95F2092 /* Pods-liaosao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liaosao.release.xcconfig"; path = "Pods/Target Support Files/Pods-liaosao/Pods-liaosao.release.xcconfig"; sourceTree = "<group>"; };
 		771F011C1F9F1C7200C8FCB3 /* GLNetWorkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLNetWorkManager.h; sourceTree = "<group>"; };
 		771F011D1F9F1C7200C8FCB3 /* GLNetWorkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLNetWorkManager.m; sourceTree = "<group>"; };
+		77769E0F1FA318EC0048FE7F /* CommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		77769E101FA327E50048FE7F /* GLLogin_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLLogin_VC.h; sourceTree = "<group>"; };
+		77769E111FA327E50048FE7F /* GLLogin_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLLogin_VC.m; sourceTree = "<group>"; };
+		77769E121FA327E50048FE7F /* GLLogin_VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GLLogin_VC.xib; sourceTree = "<group>"; };
 		CEAFD857DEF5FE10DFF053F4 /* libPods-liaosao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-liaosao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BD513FF2840CBA3F6D1C35 /* Pods-liaosao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liaosao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liaosao/Pods-liaosao.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -777,6 +783,7 @@
 			isa = PBXGroup;
 			children = (
 				36030E481E95036E0034452F /* main.m */,
+				77769E0F1FA318EC0048FE7F /* CommonHeader.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1355,6 +1362,9 @@
 				36030F441E9536330034452F /* Manager */,
 				36030F451E9536330034452F /* Model */,
 				36030F461E9536330034452F /* VC */,
+				77769E101FA327E50048FE7F /* GLLogin_VC.h */,
+				77769E111FA327E50048FE7F /* GLLogin_VC.m */,
+				77769E121FA327E50048FE7F /* GLLogin_VC.xib */,
 			);
 			path = Logins;
 			sourceTree = "<group>";
@@ -1997,6 +2007,7 @@
 				36F7AF911E9BDEA700718126 /* shut@2x.png in Resources */,
 				36F7AFAF1E9BDEA700718126 /* set_up@2x.png in Resources */,
 				36F7AFA21E9BDEA700718126 /* set_time_five@3x.png in Resources */,
+				77769E141FA327E50048FE7F /* GLLogin_VC.xib in Resources */,
 				36F7AF981E9BDEA700718126 /* receive_click@3x.png in Resources */,
 				36F7AF9A1E9BDEA700718126 /* bg@3x.png in Resources */,
 				36F7AF7F1E9BDEA700718126 /* v@2x.png in Resources */,
@@ -2136,6 +2147,7 @@
 				36030F7D1E9536330034452F /* KeyChainStore.m in Sources */,
 				36030F511E9536330034452F /* GBase_TableViewController.m in Sources */,
 				36030F8D1E9536340034452F /* XTTableDataDelegate.m in Sources */,
+				77769E131FA327E50048FE7F /* GLLogin_VC.m in Sources */,
 				36DF755B1F0FD1C100E71C92 /* Mine_FLCenter_VIew.m in Sources */,
 				365D9DAF1EA910B6006400C0 /* VC_SignIn.m in Sources */,
 				36030F671E9536330034452F /* UIImage+BFAdditional.m in Sources */,
@@ -2388,6 +2400,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/liaosao/fromwork/WXApi",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yp.shaishai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -2417,6 +2430,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/liaosao/fromwork/WXApi",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yp.shaishai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

@@ -190,8 +190,8 @@
     [self.bottomBT setBackgroundColor:kFense_Color];
     
      [self.bottomBT addTarget:self action:@selector(tapAction:) forControlEvents:UIControlEventTouchUpInside];
-    self.bottomBT.tag = 100;
-    self.codeView.rightT.tag =101;
+    self.bottomBT.tag = 103;
+    self.codeView.rightT.tag =102;
     
     [self.codeView.rightT addTarget:self action:@selector(tapAction:) forControlEvents:UIControlEventTouchUpInside];
     

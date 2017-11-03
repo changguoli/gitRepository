@@ -23,7 +23,7 @@
 - (void)setupNa {
     // [self setLeftSild];
     [self setNavigationItemTitleViewWithTitle:@"主拍认证"];
-    
+    [self showBackWithTitle:@""];
     
 }
 

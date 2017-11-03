@@ -78,22 +78,36 @@
 
     Logins_ViewModel *loginVM = [Logins_ViewModel modelWithViewController:self];
     
+    NSDictionary *checkCodeDic = @{@"login":phoneStr,
+                                   @"code":codeStr,
+                                   };
+    [GLNetWorkManager requestPostWithURLStr:KURL_API(@"checkCodeByPhone") parameters:checkCodeDic finish:^(id dataDic) {
+        
+    } enError:^(NSError *error) {
+        
+    }];
+    
     
     NSDictionary *tempDic= @{@"login":phoneStr,
                              @"regCode":codeStr,
                              @"uname":@"",
                              @"sex":@"",
                              @"password":pwStr,
-                             @"avatar_url":@"",
+                             @"avatar_url":@"12",
                              @"avatar_width":@"",
                              @"avatar_height":@""};
-    
-    [loginVM registerPhone:tempDic success:^(NSDictionary *dic) {
-        GDBLog(@"注册成功");
+    [GLNetWorkManager requestPostWithURLStr:KURL_API(@"register") parameters:tempDic finish:^(id dataDic) {
 
-    } failure:^(NSError *error) {
+    } enError:^(NSError *error) {
         
     }];
+    
+//    [loginVM registerPhone:tempDic success:^(NSDictionary *dic) {
+//        GDBLog(@"注册成功");
+//
+//    } failure:^(NSError *error) {
+//
+//    }];
     
 }
 
@@ -101,16 +115,19 @@
 - (void)registerGetPhoneCode {
     NSString *phoneStr = self.RegisterView.phoneView.rightTextFiled.text;
     
-    
-    
-    Logins_ViewModel *loginVM = [Logins_ViewModel modelWithViewController:self];
+//    Logins_ViewModel *loginVM = [Logins_ViewModel modelWithViewController:self];
     NSDictionary *tempDic= @{@"login":phoneStr};
-    
-    [loginVM sendCodeByPhone:tempDic success:^(NSDictionary *dic) {
-        GDBLog(@"验证码发送成功");
-    } failure:^(NSError *error) {
+    [GLNetWorkManager requestPostWithURLStr:KURL_API(@"send_register_code") parameters:tempDic finish:^(id dataDic) {
+        NSLog(@"data: %@", dataDic);
+    } enError:^(NSError *error) {
         
     }];
+    
+//    [loginVM sendCodeByPhone:tempDic success:^(NSDictionary *dic) {
+//        GDBLog(@"验证码发送成功");
+//    } failure:^(NSError *error) {
+//
+//    }];
     
     
 }

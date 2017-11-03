@@ -24,7 +24,7 @@
 - (void)setupNa {
     // [self setLeftSild];
     [self setNavigationItemTitleViewWithTitle:@"我的账户"];
-    
+    [self showBackWithTitle:@""];
     
 }
 

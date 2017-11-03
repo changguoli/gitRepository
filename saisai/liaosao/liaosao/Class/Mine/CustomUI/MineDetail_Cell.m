@@ -39,21 +39,21 @@
     
     
     
-//    [self.contentView addSubview:self.label_left];
-//    [self.contentView addSubview:self.label_right];
-//    [self.contentView addSubview:self.image_right];
-//    
+    [self.contentView addSubview:self.label_left];
+    [self.contentView addSubview:self.label_right];
+    [self.contentView addSubview:self.image_right];
+    
 //    [self.label_left mas_makeConstraints:^(MASConstraintMaker *make) {
 //        make.left.equalTo(self.contentView.mas_left).offset(kSpace);
 //        make.width.mas_equalTo(100);
-//        
+//
 //    }];
-//    
+//
 //    [self.label_right mas_makeConstraints:^(MASConstraintMaker *make) {
 //        make.right.equalTo(self.contentView.mas_right).offset(krightSpace);
 //        make.top.bottom.equalTo(self.contentView);
 //    }];
-//    
+//
 //    [self.image_right mas_makeConstraints:^(MASConstraintMaker *make) {
 //        make.right.equalTo(self.contentView.mas_right).offset(krightSpace);
 //        make.top.equalTo(self.contentView).offset(kSpace);
@@ -61,17 +61,13 @@
 //
 //        make.width.equalTo(self.image_right.mas_height);
 //    }];
-//    
+    
     
 }
 //设置
 - (void)setViewModelDataSource:(Base_JSONModel *)model {
     self.label_left.text = @"头像";
-    self.label_right.text =@"郭旭垚";
-    self.image_right.image = [UIImage imageNamed:@""];
-    
-    
-    
+    self.label_right.text =@"郭旭垚";    
 }
 
 

@@ -32,7 +32,7 @@ static NSString *const MyCellIdentifier = @"welfare_cell" ;
 - (void)setupNa {
     // [self setLeftSild];
     [self setNavigationItemTitleViewWithTitle:@"福利中心"];
-    
+    [self showBackWithTitle:@""];
     
 }
 
