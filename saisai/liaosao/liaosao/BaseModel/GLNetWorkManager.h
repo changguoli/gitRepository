@@ -42,4 +42,11 @@
 
 + (void)requestPostContainAuthorizationWithURLStr:(NSString *)URLStr parameters:(id)parameters token_type:(NSString *)token_type access_token:(NSString *)access_token finish:(void(^)(id dataDic))finish enError:(void(^)(NSError *error))enError;
 
+//上传表单
++(void)postUpLoadDataByString:(NSString *)urlString BODYDic:(NSDictionary *)bodyDic ImageNumber:(NSInteger)num ImageData_1:(NSData *)data1 ImageName_1:(NSString *)string1 ImageData_2:(NSData *)data2 ImageName_2:(NSString *)string2 WithDataBlock:(void(^)(id data))dataBlock;
+
+//多图上传
++ (void)postUpLoadDuoTuDataByString:(NSString *)urlString BODYDic:(NSDictionary *)bodyDic ImageNumber:(NSInteger)num ImageData_1:(NSData *)data1 ImageData_2:(NSData *)data2 ImageData_3:(NSData *)data3 ImageData_4:(NSData *)data4 ImageData_5:(NSData *)data5 ImageData_6:(NSData *)data6 WithDataBlock:(void (^)(id data))dataBlock;
+
+
 @end

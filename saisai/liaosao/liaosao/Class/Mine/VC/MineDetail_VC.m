@@ -188,6 +188,15 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
         } enError:^(NSError *error) {
             
         }];
+    } else if (indexPath.row == 6) {//获取用户头像
+        NSDictionary *dataDic = @{@"method":@"url",
+                                  @"uid":@"4",};
+        
+        [GLNetWorkManager requestPostWithURLStr:KURL_API_two(@"Message", @"getUserFace") parameters:dataDic finish:^(id dataDic) {
+            
+        } enError:^(NSError *error) {
+            
+        }];
     } else {
         NSDictionary *dataDic = @{@"num":@"",
                                   @"user_id":@"4",
@@ -267,16 +276,14 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
     _picture.image = info[UIImagePickerControllerEditedImage];
     
-    NSData *data = UIImageJPEGRepresentation(_picture.image, 0.3);
-    [GLNetWorkManager requestPostWithURLStr:KURL_API(@"upload_avatar") parameters:data finish:^(id dataDic) {
-        
-    } enError:^(NSError *error) {
-        
+    [GLNetWorkManager postUpLoadDataByString:KURL_API_two(@"User", @"upload_avatar") BODYDic:nil ImageNumber:1 ImageData_1:UIImagePNGRepresentation(_picture.image) ImageName_1:@"touxian" ImageData_2:nil ImageName_2:nil WithDataBlock:^(id data) {
+        NSLog(@"-----: %@", data);
     }];
-    
     //结束操作
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
