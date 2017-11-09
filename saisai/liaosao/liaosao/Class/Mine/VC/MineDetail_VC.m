@@ -183,7 +183,7 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
         NSDictionary *dataDic = @{@"content":@"意见反馈测试",
                                   @"uid":@"4",};
         
-        [GLNetWorkManager requestPostWithURLStr:KURL_API_two(@"System", @"sendFeeedback") parameters:dataDic finish:^(id dataDic) {
+        [GLNetWorkManager requestPostContainTokenWithURLStr:KURL_API_two(@"System", @"sendFeeedback") parameters:dataDic finish:^(id dataDic) {
             
         } enError:^(NSError *error) {
             
@@ -192,7 +192,7 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
         NSDictionary *dataDic = @{@"method":@"url",
                                   @"uid":@"4",};
         
-        [GLNetWorkManager requestPostWithURLStr:KURL_API_two(@"Message", @"getUserFace") parameters:dataDic finish:^(id dataDic) {
+        [GLNetWorkManager requestPostContainTokenWithURLStr:KURL_API_two(@"Message", @"getUserFace") parameters:dataDic finish:^(id dataDic) {
             
         } enError:^(NSError *error) {
             
@@ -202,7 +202,7 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
                                   @"user_id":@"4",
                                   @"uname":@"1760219772"};
         
-        [GLNetWorkManager requestPostWithURLStr:KURL_API_two(@"User", @"show") parameters:dataDic finish:^(id dataDic) {
+        [GLNetWorkManager requestPostContainTokenWithURLStr:KURL_API_two(@"User", @"show") parameters:dataDic finish:^(id dataDic) {
             if (([dataDic objectForKey:@"status"] != nil) && ([[dataDic objectForKey:@"status"] integerValue] == 0)) {//请求错误
                 kShowMessage([dataDic objectForKey:@"msg"]);
             } else {
