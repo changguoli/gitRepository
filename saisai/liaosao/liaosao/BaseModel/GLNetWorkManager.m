@@ -95,18 +95,22 @@
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/plain",@"application/json",@"text/json",@"text/javascript",@"text/html", @"charset=utf-8", nil];
     Logins_Model *model = [DataInfo_UserDefaults getAuthDic];
     URLStr = [NSString stringWithFormat:@"%@&oauth_token=%@&oauth_token_secret=%@", URLStr, model.oauth_token, model.oauth_token_secret];
+    [MBProgressHUD showMessage:@"加载中..."];
     [manager POST:URLStr parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSDictionary *dataDic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers | NSJSONReadingMutableLeaves error:nil];
         NSString *code = [dataDic objectForKey:@"status"];
         NSString *codeStr = [NSString stringWithFormat:@"%@",code];
         if ([codeStr isEqualToString:@"1"]) {
+            [MBProgressHUD hideHUD];
             //请求成功
             finish(dataDic);
         } else {
+            [MBProgressHUD hideHUD];
             //请求失败
             finish(dataDic);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        [MBProgressHUD hideHUD];
         [self handleFailureMessageWithError:error];
     }];
     

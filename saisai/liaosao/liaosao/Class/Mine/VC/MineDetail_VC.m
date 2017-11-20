@@ -121,7 +121,19 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
         [_picture addGestureRecognizer:tap];
         _picture.userInteractionEnabled = YES;
         [cell addSubview:_picture];
-        [_picture sd_setImageWithURL:[NSURL URLWithString:@"http://vpai.api.ha.cn/resources/theme/stv1/_static/image/noavatar/big.jpg"] placeholderImage:nil];
+        [_picture sd_setImageWithURL:[NSURL URLWithString:self.detail_data.avatar] placeholderImage:nil];
+        
+    } else if (indexPath.row == 1) {//昵称
+        cell.detailTextLabel.text = self.detail_data.uname;
+    } else if (indexPath.row == 2) {//简介
+        
+    } else if (indexPath.row == 3) {//性别
+        cell.detailTextLabel.text = self.detail_data.sex;
+    } else if (indexPath.row == 4) {//城市
+        cell.detailTextLabel.text = @"城市";
+    } else if (indexPath.row == 5) {//绑定手机
+        cell.detailTextLabel.text = @"绑定手机";
+    } else if (indexPath.row == 6) {//清除缓存
         
     }
 //    [cell setViewModelDataSource:detail_data];
@@ -170,15 +182,22 @@ static NSString *const MineCellIdentifier = @"Mine_cell" ;
             
         }];
     } else if (indexPath.row == 4) {//邮箱密码找回
-        NSDictionary *dataDic = @{@"email":@"416495176@qq.com",
-                                  @"password":@"222333",
-                                  @"code":@"222333"};
-                                  
-        [GLNetWorkManager requestPostWithURLStr:KURL_API(@"findPassword2Email") parameters:dataDic finish:^(id dataDic) {
+//        NSDictionary *dataDic = @{@"email":@"416495176@qq.com",
+//                                  @"password":@"222333",
+//                                  @"code":@"222333"};
+//
+//        [GLNetWorkManager requestPostWithURLStr:KURL_API(@"findPassword2Email") parameters:dataDic finish:^(id dataDic) {
+//
+//        } enError:^(NSError *error) {
+//
+//        }];
+        [GLNetWorkManager requestPostContainTokenWithURLStr:KURL_API_two(@"FindPeople", @"get_user_city") parameters:nil finish:^(id dataDic) {
             
         } enError:^(NSError *error) {
             
         }];
+        
+        
     } else if (indexPath.row == 5) {//意见反馈
         NSDictionary *dataDic = @{@"content":@"意见反馈测试",
                                   @"uid":@"4",};

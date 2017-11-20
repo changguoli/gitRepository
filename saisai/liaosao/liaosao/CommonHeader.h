@@ -32,6 +32,6 @@
 
 #define KaNibController(TARGET) [[NSClassFromString(TARGET) alloc] initWithNibName:(TARGET) bundle:nil]
 ///公共请求接口投
-#define KURL_API(x) [NSString stringWithFormat:@"http://vpai.api.ha.cn/api.php?mod=Oauth&act=%@", x]
-#define KURL_API_two(x, y) [NSString stringWithFormat:@"http://vpai.api.ha.cn/api.php?mod=%@&act=%@", x, y]
+#define KURL_API(x) [NSString stringWithFormat:@"http://www.yz2szy.top/api.php?mod=Oauth&act=%@", x]
+#define KURL_API_two(x, y) [NSString stringWithFormat:@"http://www.yz2szy.top/api.php?mod=%@&act=%@", x, y]
 #endif /* CommonHeader_h */

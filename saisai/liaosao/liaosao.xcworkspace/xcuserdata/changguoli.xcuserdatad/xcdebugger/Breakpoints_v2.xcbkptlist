@@ -186,7 +186,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/Manager/Logins_ViewModel.m"
-                  timestampString = "531731496.524369"
+                  timestampString = "532331810.759256"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -201,7 +201,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/Manager/Logins_ViewModel.m"
-                  timestampString = "531731496.526136"
+                  timestampString = "532331810.764304"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
@@ -266,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/BaseModel/GLNetWorkManager.m"
-            timestampString = "531731496.255157"
+            timestampString = "532256749.007416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
             landmarkName = "+requestPostContainAuthorizationWithURLStr:parameters:token_type:access_token:finish:enError:"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/BaseModel/GLNetWorkManager.m"
-            timestampString = "531731496.255246"
+            timestampString = "532256749.012981"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "+requestPostContainAuthorizationWithURLStr:parameters:token_type:access_token:finish:enError:"
             landmarkType = "7">
             <Locations>
@@ -298,11 +298,11 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/BaseModel/GLNetWorkManager.m"
-                  timestampString = "531731496.545289"
+                  timestampString = "532331810.800969"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
                   offsetFromSymbolStart = "1072">
                </Location>
                <Location
@@ -313,56 +313,56 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/BaseModel/GLNetWorkManager.m"
-                  timestampString = "531731496.547039"
+                  timestampString = "532331810.804853"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
                   offsetFromSymbolStart = "340">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__copy_helper_block_.102"
+                  symbolName = "__copy_helper_block_.109"
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/BaseModel/GLNetWorkManager.m"
-                  timestampString = "531731496.548766"
+                  timestampString = "532331810.808036"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
                   offsetFromSymbolStart = "56">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_.103"
+                  symbolName = "__destroy_helper_block_.110"
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/BaseModel/GLNetWorkManager.m"
-                  timestampString = "531731496.550469"
+                  timestampString = "532331810.8104"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
                   offsetFromSymbolStart = "36">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__112+[GLNetWorkManager requestPostContainAuthorizationWithURLStr:parameters:token_type:access_token:finish:enError:]_block_invoke.105"
+                  symbolName = "__112+[GLNetWorkManager requestPostContainAuthorizationWithURLStr:parameters:token_type:access_token:finish:enError:]_block_invoke.112"
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/BaseModel/GLNetWorkManager.m"
-                  timestampString = "531731496.552165"
+                  timestampString = "532331810.812466"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
                   offsetFromSymbolStart = "24">
                </Location>
             </Locations>
@@ -391,7 +391,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
-                  timestampString = "531731496.558792"
+                  timestampString = "532331810.833896"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "101"
@@ -406,7 +406,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
-                  timestampString = "531731496.560748"
+                  timestampString = "532331810.838261"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "103"
@@ -439,7 +439,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
-                  timestampString = "531731496.564975"
+                  timestampString = "532331810.845567"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "86"
@@ -454,7 +454,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Register_VC.m"
-                  timestampString = "531731496.566757"
+                  timestampString = "532331810.848748"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "88"
@@ -503,7 +503,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Forget_VC.m"
-                  timestampString = "531731496.574255"
+                  timestampString = "532331810.870447"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "48"
@@ -518,7 +518,7 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Logins/VC/Forget_VC.m"
-                  timestampString = "531731496.575999"
+                  timestampString = "532331810.874383"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "49"
@@ -599,7 +599,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
-            timestampString = "531731496.255418"
+            timestampString = "532256749.013856"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "123"
@@ -615,11 +615,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
-            timestampString = "531731496.255856"
+            timestampString = "532256749.018292"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "7">
             <Locations>
@@ -631,11 +631,11 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
-                  timestampString = "531731496.59468"
+                  timestampString = "532331810.905556"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "142"
-                  endingLineNumber = "142"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
                   offsetFromSymbolStart = "280">
                </Location>
                <Location
@@ -646,11 +646,11 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
-                  timestampString = "531731496.596828"
+                  timestampString = "532331810.908633"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "144"
-                  endingLineNumber = "144"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
                   offsetFromSymbolStart = "56">
                </Location>
             </Locations>
@@ -663,11 +663,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
-            timestampString = "531731496.256178"
+            timestampString = "532256749.019183"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "7">
             <Locations>
@@ -711,11 +711,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
-            timestampString = "531731496.256483"
+            timestampString = "532256749.020002"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "7">
             <Locations>
@@ -727,11 +727,11 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
-                  timestampString = "531731496.602585"
+                  timestampString = "532331810.91632"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "167"
-                  endingLineNumber = "167"
+                  startingLineNumber = "179"
+                  endingLineNumber = "179"
                   offsetFromSymbolStart = "1048">
                </Location>
                <Location
@@ -742,11 +742,11 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
-                  timestampString = "531731496.604391"
+                  timestampString = "532331810.919981"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "169"
-                  endingLineNumber = "169"
+                  startingLineNumber = "181"
+                  endingLineNumber = "181"
                   offsetFromSymbolStart = "56">
                </Location>
             </Locations>
@@ -759,11 +759,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
-            timestampString = "531731496.256778"
+            timestampString = "532256749.020826"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "185"
-            endingLineNumber = "185"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "7">
             <Locations>
@@ -775,12 +775,12 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
-                  timestampString = "531731496.608668"
+                  timestampString = "532331810.927582"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "186"
-                  endingLineNumber = "186"
-                  offsetFromSymbolStart = "1704">
+                  startingLineNumber = "205"
+                  endingLineNumber = "205"
+                  offsetFromSymbolStart = "1568">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -790,11 +790,11 @@
                   moduleName = "liaosao"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC/MineDetail_VC.m"
-                  timestampString = "531731496.610501"
+                  timestampString = "532331810.930734"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "188"
-                  endingLineNumber = "188"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
                   offsetFromSymbolStart = "56">
                </Location>
             </Locations>
@@ -807,12 +807,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "liaosao/Class/Mine/VC/MineDetail_VC.m"
-            timestampString = "531731496.257071"
+            timestampString = "532256749.021796"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "280"
-            endingLineNumber = "280"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
             landmarkName = "-imagePickerController:didFinishPickingMediaWithInfo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Mine/VC_Mine.m"
+            timestampString = "532256749.022822"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/Class/Mine/VC_Mine.m"
+            timestampString = "532256749.023356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[VC_Mine viewDidLoad]"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC_Mine.m"
+                  timestampString = "532331810.955604"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__22-[VC_Mine viewDidLoad]_block_invoke"
+                  moduleName = "liaosao"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/changguoli/gitRepository/saisai/liaosao/liaosao/Class/Mine/VC_Mine.m"
+                  timestampString = "532331810.95959"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "liaosao/BaseModel/GLNetWorkManager.m"
+            timestampString = "532256819.78564"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "+requestPostContainTokenWithURLStr:parameters:finish:enError:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

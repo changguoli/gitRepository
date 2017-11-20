@@ -2384,6 +2384,7 @@
 			baseConfigurationReference = F0BD513FF2840CBA3F6D1C35 /* Pods-liaosao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhengzhou Cloud Commune Community Service Co., Ltd. (RZGPX6AN48)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -2414,6 +2415,7 @@
 			baseConfigurationReference = 4B173DA7AF347AB0A95F2092 /* Pods-liaosao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhengzhou Cloud Commune Community Service Co., Ltd. (RZGPX6AN48)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;

@@ -77,7 +77,7 @@
     [self.userLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.userImage_left.mas_right).offset(kSpace_min);
         make.top.equalTo(self.contentView.mas_top).offset(kspace_top);
-    
+        make.height.offset(25);
     }];
     [self.userDetail mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.userLabel);
@@ -85,8 +85,12 @@
     }];
     
     [self.VipImage mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.equalTo(self.bgView);
-        make.height.width.equalTo(self.bgView.mas_height);
+//        make.left.top.equalTo(self.bgView);
+//        make.height.width.equalTo(self.bgView.mas_height);
+        make.left.equalTo(self.userLabel.mas_right).offset(kSpace);
+        make.height.offset(20);
+        make.width.offset(35);
+        make.centerY.equalTo(self.userLabel);
     }];
     
     [self.level_label mas_makeConstraints:^(MASConstraintMaker *make) {

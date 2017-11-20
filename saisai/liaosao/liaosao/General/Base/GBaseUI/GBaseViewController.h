@@ -19,6 +19,8 @@ typedef void (^getImageView)(UIImage *image);
 @property (nonatomic,strong) GBase_CollectionView *collectionView;
 @property (nonatomic,strong) CHTCollectionViewWaterfallLayout *customLayout;
 @property (nonatomic,strong)NSMutableArray *dataSource;
+//个人基本信息
+@property (nonatomic,strong) MineDetail_model *detail_data;
 
 
 
